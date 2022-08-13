@@ -59,6 +59,13 @@ and this to `~/.SpaceVim.d/init.toml` using `SPC f v d`:
 [options]
     escape_key_binding = 'fd'
     relativenumber=false
+    windows_leader = ''
+    
+[[layers]]
+  name = "lang#fortran"
+
+[[layers]]
+  name = "lang#python"
 ```
 
 relaunch SpaceVim twice.
