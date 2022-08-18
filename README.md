@@ -1,4 +1,23 @@
-# Post installation for Ubuntu 22.04
+# Linux Configuration
+
+This is a collection of my complete Linux configuration for computational fluid dynamics and software development on
+WSL2.
+
+| Name | Install | Config |
+| ---  |  :------: | :------: |
+| WSL terminal | | [&#11044;](config/wsl-terminal/wsl-terminal.md)|
+| zsh | [&#11044;](install/zsh/zsh.md) | [&#11044;](config/zsh/zsh.md) |
+| Vim | [&#11044;](install/vim/vim.md) | [&#11044;](config/vim/vim.md) |
+| VS Code |  | [&#11044;](config/vs-code/vs-code.md) |
+| pandoc | [&#11044;](install/pandoc/pandoc.md) |  |
+| Quarto | [&#11044;](install/quarto/quarto.md) |  |
+| Project ID | [&#11044;](install/project-id/project-id.md) | [&#11044;](config/project-id/project-id.md) |
+| OpenFOAM | [&#11044;](install/openfoam/openfoam.md) | [&#11044;](config/openfoam/openfoam.md) |
+| SU2 | [&#11044;](install/su2/su2.md) | [&#11044;](config/su2/su2.md) |
+| PICLas | [&#11044;](install/piclas/piclas.md) | [&#11044;](config/piclas/piclas.md) |
+| SPARTA | [&#11044;](install/sparta/sparta.md) | [&#11044;](config/sparta/sparta.md) |
+
+## Configurations
 
 ## 1. Terminal related things
 
@@ -135,6 +154,48 @@ sudo apt install ./quarto-1.0.38-linux-amd64.deb
 ## 4. CFD related things
 
 ### 4.1 OpenFOAM, hyStrath
+
+#### OpenFOAM-v1706
+
+1.  First we will need to downgrade to the `gcc-7` compiler. Add this to
+    `/etc/apt/sources.list`:
+
+    ```sh
+    # /etc/apt/sources.list
+    deb [arch=amd64] http://archive.ubuntu.com/ubuntu focal main universe
+    ```
+
+    Then you can install using
+
+    ```sh
+    sudo apt update
+    sudo apt install gcc-7 g++-7
+    sudo apt install gcc-12 g++-12
+    ```
+
+    and update the current compiler 
+
+    ```sh
+    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 7
+    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 7
+    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 11
+    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-11 11
+    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 12
+    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-12 12
+    sudo update-alternatives --config gcc
+    sudo update-alternatives --config g++
+    ```
+
+2.  Install OpenFOAM-v1706
+
+    ```sh
+    cd $HOME
+    mkdir -p OpenFOAM
+    cd OpenFOAM
+
+
+    ```
+
 
 ### 4.2 SU2
 
