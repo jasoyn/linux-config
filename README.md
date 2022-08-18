@@ -1,21 +1,21 @@
 # Linux Configuration
 
 This is a collection of my complete Linux configuration for computational fluid dynamics and software development on
-WSL2.
+WSL2. The table below is chronologically ordered by how I'd install the software.
 
 | Name | Install | Config |
 | ---  |  :------: | :------: |
-| WSL terminal | | [&#11044;](config/wsl-terminal/wsl-terminal.md)|
-| zsh | [&#11044;](install/zsh/zsh.md) | [&#11044;](config/zsh/zsh.md) |
-| Vim | [&#11044;](install/vim/vim.md) | [&#11044;](config/vim/vim.md) |
-| VS Code |  | [&#11044;](config/vs-code/vs-code.md) |
-| pandoc | [&#11044;](install/pandoc/pandoc.md) |  |
-| Quarto | [&#11044;](install/quarto/quarto.md) |  |
-| Project ID | [&#11044;](install/project-id/project-id.md) | [&#11044;](config/project-id/project-id.md) |
-| OpenFOAM | [&#11044;](install/openfoam/openfoam.md) | [&#11044;](config/openfoam/openfoam.md) |
-| SU2 | [&#11044;](install/su2/su2.md) | [&#11044;](config/su2/su2.md) |
-| PICLas | [&#11044;](install/piclas/piclas.md) | [&#11044;](config/piclas/piclas.md) |
-| SPARTA | [&#11044;](install/sparta/sparta.md) | [&#11044;](config/sparta/sparta.md) |
+| WSL terminal | | [&#x25cf;](config/wsl-terminal/wsl-terminal.md)|
+| zsh | [&#x25cf;](install/zsh/zsh.md) | [&#x25cf;](config/zsh/zsh.md) |
+| Vim | [&#x25cf;](install/vim/vim.md) | [&#x25cf;](config/vim/vim.md) |
+| VS Code |  | [&#x25cf;](config/vs-code/vs-code.md) |
+| pandoc | [&#x25cf;](install/pandoc/pandoc.md) |  |
+| Quarto | [&#x25cf;](install/quarto/quarto.md) |  |
+| Project ID | [&#x25cf;](install/project-id/project-id.md) | [&#x25cf;](config/project-id/project-id.md) |
+| OpenFOAM | [&#x25cf;](install/openfoam/openfoam.md) | [&#x25cf;](config/openfoam/openfoam.md) |
+| SU2 | [&#x25cf;](install/su2/su2.md) | [&#x25cf;](config/su2/su2.md) |
+| PICLas | [&#x25cf;](install/piclas/piclas.md) | [&#x25cf;](config/piclas/piclas.md) |
+| SPARTA | [&#x25cf;](install/sparta/sparta.md) | [&#x25cf;](config/sparta/sparta.md) |
 
 ## Configurations
 
