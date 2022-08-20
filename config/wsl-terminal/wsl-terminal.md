@@ -28,7 +28,7 @@
     },
     ```
 
-2.  Add the variable `colorScheme` for each distro:
+2.  Add the variable `colorScheme` for **each distro**:
 
     ```json
     "list": 
@@ -40,5 +40,4 @@
             "hidden": false,
             "name": "Windows PowerShell"
         },
-    ...
     ```

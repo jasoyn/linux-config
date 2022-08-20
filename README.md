@@ -13,6 +13,7 @@ WSL2. The table below is chronologically ordered by how I'd install the software
 | Quarto | [&#x25cf;](install/quarto/quarto.md) |  |
 | Project ID | [&#x25cf;](install/project-id/project-id.md) | [&#x25cf;](config/project-id/project-id.md) |
 | OpenFOAM | [&#x25cf;](install/openfoam/openfoam.md) | [&#x25cf;](config/openfoam/openfoam.md) |
+| ParaView | [&#x25cf;](install/paraview/paraview.md) | [&#x25cf;](config/paraview/paraview.md) |
 | SU2 | [&#x25cf;](install/su2/su2.md) | [&#x25cf;](config/su2/su2.md) |
 | PICLas | [&#x25cf;](install/piclas/piclas.md) | [&#x25cf;](config/piclas/piclas.md) |
 | SPARTA | [&#x25cf;](install/sparta/sparta.md) | [&#x25cf;](config/sparta/sparta.md) |
